@@ -1,11 +1,12 @@
-[project]
+[tool.poetry]
 name = "secure-data-encryption"
 version = "0.1.0"
-description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10,<3.13"
-dependencies = [
-     "streamlit",
-    "cryptography",
-]
-package-mode = false
+authors = ["syeda maham amjad"]
+license = "MIT"
+package-mode = false 
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+streamlit = "*"
+cryptography = "*"
